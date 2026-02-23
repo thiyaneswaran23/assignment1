@@ -12,7 +12,7 @@ public class CpeController {
 
     private final CpeService service;
 
-    // ✅ Constructor Injection
+
     public CpeController(CpeService service) {
         this.service = service;
     }
